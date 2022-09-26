@@ -28,3 +28,7 @@ After completion run the command below
 npm run dev
 
 <img width="563" alt="image" src="https://user-images.githubusercontent.com/28800051/192220093-9c43dd49-545f-4220-bae3-73b4e952b9cb.png">
+
+Setup the entire application by following the steps mentioned below
+
+https://medium.com/@joshuasalema/connecting-the-dots-setting-up-graphql-react-js-apollo-client-mongodb-atlas-and-node-js-6afd4c4398ef
