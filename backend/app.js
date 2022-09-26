@@ -5,7 +5,7 @@ const {graphqlHTTP} = require('express-graphql');
 const movieSchema = require('../backend/schema/schema');
 const resolvers = require('./resolver/resolver');
 const cors = require('cors');
-mongoose.connect('mongodb+srv://ghostrider:N5ntV3mpJQTrS9xc@cluster0.qkydjsl.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.qkydjsl.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology:true,
     authSource:"admin",
